@@ -1,0 +1,10 @@
+auto_taller_rc:
+    resource: "@AutoTallerRCBundle/Resources/config/routing.yml"
+    prefix:   /
+
+user:
+    resource: "@UserBundle/Resources/config/routing.yml"
+
+app.index:
+    resource: "@AppBundle/Controller/IndexController.php"
+    type: annotation
